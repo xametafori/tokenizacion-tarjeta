@@ -25,9 +25,7 @@ function create(card) {
         const carsave = Cards(card);
 
         carsave.save();
-       // if (process.env.NODE_ENV !== 'test') {
-         //   writeDataToFile('./data/cards.json', cadCollection);
-        //}
+
         resolve(carsave)
     })
 }
