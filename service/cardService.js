@@ -1,7 +1,6 @@
 
 var jwt = require('jsonwebtoken') 
 const Cards = require('../models/cardModel')
-const { valid_credit_card } = require('../utils')
 
 function findById(id) {
     
